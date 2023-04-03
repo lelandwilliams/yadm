@@ -36,6 +36,8 @@ return require('packer').startup(function(use)
   use('mbbill/undotree')
   -- fugitive handles git commands
   use('tpope/vim-fugitive')
+  -- vimwiki
+  use'vimwiki/vimwiki'
 
   -- lsp-zero
   use {
