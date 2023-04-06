@@ -25,8 +25,11 @@ return require('packer').startup(function(use)
 	  end
   })
 
-  --  Add another colorscheme
-  use "savq/melange-nvim"
+  --  Add other colorschemes
+  use 'savq/melange-nvim'
+  use 'gerardbm/vim-atomic'
+  use 'sainnhe/everforest'
+
 
   -- Treesitter provides syntax parsing
   use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
