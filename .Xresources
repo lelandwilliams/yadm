@@ -1,0 +1,7 @@
+URxvt.font: 	xft:DejaVuSansMono:antialias=true:pixelsize=20
+URxvt.scrollBar: false
+URxvt.depth: 	32
+URxvt.geometry: 139x64
+
+XTerm.vt100.faceName: DejaVuSansMono:size=16:antialias=true
+XTerm.vt100.geometry: 139x73
