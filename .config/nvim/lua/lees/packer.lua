@@ -25,6 +25,9 @@ return require('packer').startup(function(use)
 	  end
   })
 
+  -- more colorschemes
+  use('carakan/new-railscasts-theme')
+
   -- Treesitter provides syntax parsing
   use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
   use('nvim-treesitter/playground')
