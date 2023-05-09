@@ -129,10 +129,17 @@ _G.packer_plugins = {
     path = "/home/lhw/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
+
   ["new-railscasts-theme"] = {
     loaded = true,
     path = "/home/lhw/.local/share/nvim/site/pack/packer/start/new-railscasts-theme",
     url = "https://github.com/carakan/new-railscasts-theme"
+
+  ["melange-nvim"] = {
+    loaded = true,
+    path = "/home/lhw/.local/share/nvim/site/pack/packer/start/melange-nvim",
+    url = "https://github.com/savq/melange-nvim"
+
   },
   ["nvim-cmp"] = {
     loaded = true,

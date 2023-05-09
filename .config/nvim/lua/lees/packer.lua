@@ -27,6 +27,10 @@ return require('packer').startup(function(use)
 
   -- more colorschemes
   use('carakan/new-railscasts-theme')
+  use 'savq/melange-nvim'
+  use 'gerardbm/vim-atomic'
+  use 'sainnhe/everforest
+
 
   -- Treesitter provides syntax parsing
   use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
@@ -36,6 +40,8 @@ return require('packer').startup(function(use)
   use('mbbill/undotree')
   -- fugitive handles git commands
   use('tpope/vim-fugitive')
+  -- vimwiki
+  use'vimwiki/vimwiki'
 
   -- lsp-zero
   use {
