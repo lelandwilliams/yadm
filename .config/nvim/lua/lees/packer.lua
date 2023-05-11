@@ -27,9 +27,9 @@ return require('packer').startup(function(use)
 
   -- more colorschemes
   use('carakan/new-railscasts-theme')
-  use 'savq/melange-nvim'
-  use 'gerardbm/vim-atomic'
-  use 'sainnhe/everforest
+  use('savq/melange-nvim')
+  use('gerardbm/vim-atomic')
+  use('sainnhe/everforest')
 
 
   -- Treesitter provides syntax parsing
