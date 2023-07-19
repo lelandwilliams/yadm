@@ -29,7 +29,7 @@ return require('packer').startup(function(use)
   use('carakan/new-railscasts-theme')
   use 'savq/melange-nvim'
   use 'gerardbm/vim-atomic'
-  use 'sainnhe/everforest
+  use 'sainnhe/everforest'
 
 
   -- Treesitter provides syntax parsing
