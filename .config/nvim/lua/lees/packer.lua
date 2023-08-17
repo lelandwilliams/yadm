@@ -25,7 +25,8 @@ return require('packer').startup(function(use)
 	  end
   })
 
-  --  Add other colorschemes
+  -- more colorschemes
+  use('carakan/new-railscasts-theme')
   use 'savq/melange-nvim'
   use 'gerardbm/vim-atomic'
   use 'sainnhe/everforest'

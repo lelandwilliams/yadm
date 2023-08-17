@@ -1,4 +1,4 @@
-URxvt.font: xft:Cascadia Code:size=16
+<<<<<<< HEAD
 
 XTerm.termName: xterm-256color
 XTerm.vt100.scrollBar: false
@@ -6,3 +6,11 @@ XTerm*.facename: Inconsolata:size=16:antialias=true
 
 xterm*faceName: Cascadia Code
 xterm*faceSize: 16
+XTerm.vt100.geometry: 139x73
+
+URxvt.font: 	xft:DejaVuSansMono:antialias=true:pixelsize=20
+URxvt.scrollBar: false
+URxvt.depth: 	32
+URxvt.geometry: 139x64
+
+>>>>>>> 25d752e8cd570c07843508c62582460588485dae

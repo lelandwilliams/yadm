@@ -104,6 +104,11 @@ _G.packer_plugins = {
     path = "/home/lhw/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
+  everforest = {
+    loaded = true,
+    path = "/home/lhw/.local/share/nvim/site/pack/packer/start/everforest",
+    url = "https://github.com/sainnhe/everforest"
+  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/home/lhw/.local/share/nvim/site/pack/packer/start/friendly-snippets",
@@ -133,6 +138,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/lhw/.local/share/nvim/site/pack/packer/start/melange-nvim",
     url = "https://github.com/savq/melange-nvim"
+  },
+  ["new-railscasts-theme"] = {
+    loaded = true,
+    path = "/home/lhw/.local/share/nvim/site/pack/packer/start/new-railscasts-theme",
+    url = "https://github.com/carakan/new-railscasts-theme"
   },
   ["nvim-cmp"] = {
     loaded = true,
@@ -180,10 +190,20 @@ _G.packer_plugins = {
     path = "/home/lhw/.local/share/nvim/site/pack/packer/start/undotree",
     url = "https://github.com/mbbill/undotree"
   },
+  ["vim-atomic"] = {
+    loaded = true,
+    path = "/home/lhw/.local/share/nvim/site/pack/packer/start/vim-atomic",
+    url = "https://github.com/gerardbm/vim-atomic"
+  },
   ["vim-fugitive"] = {
     loaded = true,
     path = "/home/lhw/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
+  },
+  vimwiki = {
+    loaded = true,
+    path = "/home/lhw/.local/share/nvim/site/pack/packer/start/vimwiki",
+    url = "https://github.com/vimwiki/vimwiki"
   }
 }
 
