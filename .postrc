@@ -2,3 +2,10 @@ mamba activate py311
 alias nvim=/home/lhw/pkgs/nvim-linux64/bin/nvim
 export R_LIBS_USER=/home/lhw/pkgs/R
 export PYTHONPATH=/home/lhw/pylib
+powerline-daemon -q
+POWERLINE_BASH_CONTINUATION=1
+POWERLINE_BASH_SELECT=1
+source /home/lhw/pkgs/mambaforge/envs/py311/lib/python3.11/site-packages/powerline/bindings/bash/powerline.sh
+
+# opam configuration
+test -r /home/lhw/.opam/opam-init/init.sh && . /home/lhw/.opam/opam-init/init.sh > /dev/null 2> /dev/null || true
