@@ -1,4 +1,4 @@
-mamba activate py311
+mamba activate py312
 alias nvim=/home/lhw/pkgs/nvim-linux64/bin/nvim
 export R_LIBS_USER=/home/lhw/pkgs/R
 export PYTHONPATH=/home/lhw/pylib
